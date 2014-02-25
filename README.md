@@ -1,4 +1,4 @@
-# HACK of the Syllabus for NYCastroML
+# ATXastroML (data science in astronomy at UTexas)
 
 This repo was forked from NYC's version of their astroML meetup.
 This version is for ATXastroML, in Austin Texas. 
