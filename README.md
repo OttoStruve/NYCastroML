@@ -25,7 +25,7 @@ _ATXastroML coordinators are:_
 
   - _If you don't have Python, install it, we recommend Anaconda (https://store.continuum.io/cshop/academicanaconda)_
   - _If you are new to Python, try out www.codeacademy.com_
-  - _If you don't have Git, get it, clone NYCastroML_
+  - _If you don't have GitHub, get it, clone NYCastroML (https://education.github.com/)_
   - _Install astroML_
   - _Familiarize yourself with the textbook (e-book available)_
   _ _Familiarize yourself with the astroML website (astroML.org)_
