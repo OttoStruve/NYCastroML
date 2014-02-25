@@ -34,3 +34,8 @@ _ATXastroML coordinators are:_
 
   -The goal for this meetup is to go over as much of material from NYCastroML as possible.  So far there is content from Ch1-4.
 
+## March 10, 2014 (SXSW edition)
+
+  -It's spring break!  Time to hack awesome things in Python!
+
+
