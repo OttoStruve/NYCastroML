@@ -10,6 +10,8 @@ http://gigayear.weebly.com/data-science.html
 The e-textbook is available here:
 http://catalog.lib.utexas.edu/record=b8805614~S29
 
+The astroML website is:
+www.astroML.org
 
 ##Introduction
 
@@ -21,10 +23,12 @@ _ATXastroML coordinators are:_
 
 ##Preliminaries
 
-  - _If you don't know Python, install it (Anaconda) and give it a whirl on Code
-academy.com_
+  - _If you don't have Python, install it, we recommend Anaconda (https://store.continuum.io/cshop/academicanaconda)_
+  - _If you are new to Python, try out www.codeacademy.com_
   - _If you don't have Git, get it, clone NYCastroML_
-  - _Install astroML Read Chapter 1_
+  - _Install astroML_
+  - _Familiarize yourself with the textbook (e-book available)_
+  _ _Familiarize yourself with the astroML website (astroML.org)_
 
 ## March 5, 2014
 
