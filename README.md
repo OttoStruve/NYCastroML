@@ -30,12 +30,19 @@ _ATXastroML coordinators are:_
   - _Familiarize yourself with the textbook (e-book available)_
   - _Familiarize yourself with the astroML website (astroML.org)_
 
+
+## February 26, 2014
+
+  -The goal for this meetup is to go over as much of material from NYCastroML as
+ possible.  They have sweet iPython notebooks pre-made!  We'll probably get to chapters 1 and 2.  Gully will get things started and contribute what he's learned from reading Ch 1-4.
+
+
 ## March 5, 2014
 
-  -The goal for this meetup is to go over as much of material from NYCastroML as possible.  So far there is content from Ch1-4.
+  -We will continue to go over the NYCastroML iPython Notebooks.
 
 ## March 10, 2014 (SXSW edition)
 
-  -It's spring break!  Time to hack awesome things in Python!
+  -It's spring break!  Time to hack awesome things in Python!  Anyone interested?
 
 
