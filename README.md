@@ -28,7 +28,7 @@ _ATXastroML coordinators are:_
   - _If you don't have GitHub, get it, clone NYCastroML (https://education.github.com/)_
   - _Install astroML_
   - _Familiarize yourself with the textbook (e-book available)_
-  _ _Familiarize yourself with the astroML website (astroML.org)_
+  - _Familiarize yourself with the astroML website (astroML.org)_
 
 ## March 5, 2014
 
