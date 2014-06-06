@@ -85,6 +85,9 @@ Nfreq = Nbins / 2
 df = 1. / (Nbins * dt)
 f = df * np.arange(Nfreq) 
 
+# Only keep the first half of the FFT, since the second half is redundant.
+# Question:  Is this always symmetric?  Why bother with the second term of
+# Equation 10.6?
 PSD_window = abs(np.fft.fft(window)[:Nfreq]) ** 2
 PSD_y = abs(np.fft.fft(y)[:Nfreq]) ** 2
 PSD_obs = abs(np.fft.fft(y * window)[:Nfreq]) ** 2
@@ -94,6 +97,7 @@ PSD_obs = abs(np.fft.fft(y * window)[:Nfreq]) ** 2
 # arbitrary
 
 # scale PSDs for plotting
+# ...Why the choice of 500?  Is this arbitrary?
 PSD_window /= 500
 PSD_y /= PSD_y.max()
 PSD_obs /= 500
@@ -106,7 +110,7 @@ fig.subplots_adjust(bottom=0.15, hspace=0.2, wspace=0.25,
 
 # First panel: data vs time
 ax = fig.add_subplot(221)
-ax.plot(t, y, '-', c='gray')
+ax.plot(t, y, '-', c='red')
 ax.plot(t_obs, y_obs, '.k', ms=4)
 ax.text(0.95, 0.93, "Data", ha='right', va='top', transform=ax.transAxes)
 ax.set_ylabel('$y(t)$')
@@ -115,7 +119,7 @@ ax.set_ylim(-1.5, 1.8)
 
 # Second panel: PSD of data
 ax = fig.add_subplot(222)
-ax.fill(f, PSD_y, fc='gray', ec='gray')
+ax.fill(f, PSD_y, fc='gray', ec='red')
 ax.plot(f, PSD_obs, '-', c='black')
 ax.text(0.95, 0.93, "Data PSD", ha='right', va='top', transform=ax.transAxes)
 ax.set_ylabel('$P(f)$')
