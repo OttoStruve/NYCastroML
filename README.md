@@ -19,12 +19,8 @@ _ATXastroML coordinators are:_
 
  -gully (gully@astro.as.utexas.edu)
 
- -{Type your name here!}
 
-##Preliminaries
+*Update* January 28, 2015-
+** ATXastroML is over, but go to GSPS for our new debut of Code Reviews**
+Also, sign up for the AstroData UT List [here](https://utlists.utexas.edu/sympa)
 
-  - _If you don't have Python, install it, we recommend Anaconda (https://store.continuum.io/cshop/academicanaconda)_
-  - _If you are new to Python, try out www.codeacademy.com_
-  - _If you don't have GitHub, get it, clone NYCastroML (https://education.github.com/)_
-  - _Install astroML_
-  - _Familiarize yourself with the textbook (e-book available)_
